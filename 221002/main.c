@@ -11,8 +11,9 @@ void get_num_and_print_num() {
     p_num = (int *)malloc(sizeof(int));
     if(p_num != NULL) {
         printf("Input : ");
+        fflush(stdout);
         scanf("%d", p_num);
-        int input_num = *p_num;
+        int input_num = *p_nuim;
         printf("Your input : %d", input_num);
         free(p_num);
     }
