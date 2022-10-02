@@ -13,7 +13,7 @@ void get_num_and_print_num() {
         printf("Input : ");
         fflush(stdout);
         scanf("%d", p_num);
-        int input_num = *p_nuim;
+        int input_num = *p_num;
         printf("Your input : %d", input_num);
         free(p_num);
     }
